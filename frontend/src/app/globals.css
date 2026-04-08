@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-birch: #f5f0e8;
+  --color-birch-dark: #ede6d6;
+  --color-evergreen: #2d4a3e;
+  --color-berry: #c2565a;
+  --color-moss: #8fa98c;
+  --color-ink: #1a2e26;
+
+  --font-serif: "Fraunces", serif;
+  --font-sans: "DM Sans", sans-serif;
+
+  --radius-4xl: 2rem;
+  --radius-5xl: 3rem;
+}
+
+:root {
+  --background: var(--color-birch);
+  --foreground: var(--color-evergreen);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, .font-serif {
+  font-family: var(--font-serif);
+}
+
+@utility glass {
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(45, 74, 62, 0.1);
+}
+
+.btn-primary {
+  @apply bg-berry text-white px-8 py-3 rounded-full font-bold transition-all hover:opacity-90 active:scale-95 shadow-lg shadow-berry/10 flex items-center justify-center gap-2;
+}
+
+.btn-secondary {
+  @apply border-2 border-evergreen/10 text-evergreen px-8 py-3 rounded-full font-bold transition-all hover:bg-evergreen/5 active:scale-95 flex items-center justify-center gap-2;
+}
+
+.gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-berry to-evergreen font-bold;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--color-birch-dark); }
+::-webkit-scrollbar-thumb { background: var(--color-moss); border-radius: 3px; }
+
+
+/* Input visibility fix */
+input, textarea, select {
+  @apply bg-white border border-evergreen/10 rounded-xl px-4 py-2 text-evergreen placeholder-evergreen/30 focus:border-berry/50 focus:ring-1 focus:ring-berry/50 outline-none transition-all;
+}
+
+.admin-modal {
+  @apply glass rounded-3xl p-8 w-full max-w-2xl shadow-2xl border border-evergreen/10;
+}
+
+.admin-label {
+  @apply block text-[10px] font-bold uppercase tracking-widest text-evergreen/40 mb-2 ml-1;
+}

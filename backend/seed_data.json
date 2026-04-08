@@ -1,0 +1,143 @@
+{
+  "courses": [
+    {
+      "name": "CCC (Course on Computer Concepts)",
+      "description": "Government-recognized computer literacy course covering basic IT concepts, internet, email, and office tools.",
+      "duration": "3 Months",
+      "fees": 3500.0,
+      "is_active": true
+    },
+    {
+      "name": "Tally Prime",
+      "description": "Complete accounting course covering GST, TDS, inventory, payroll, and financial reporting using Tally Prime.",
+      "duration": "3 Months",
+      "fees": 5000.0,
+      "is_active": true
+    },
+    {
+      "name": "Adobe Photoshop",
+      "description": "Learn professional photo editing, graphic design, and digital art with Adobe Photoshop.",
+      "duration": "2 Months",
+      "fees": 4000.0,
+      "is_active": true
+    },
+    {
+      "name": "English & Hindi Typing",
+      "description": "Master touch typing in both English and Hindi with speed and accuracy training.",
+      "duration": "2 Months",
+      "fees": 2500.0,
+      "is_active": true
+    },
+    {
+      "name": "MS Office Complete",
+      "description": "Comprehensive training in Microsoft Word, Excel, PowerPoint, and Access.",
+      "duration": "3 Months",
+      "fees": 4500.0,
+      "is_active": true
+    },
+    {
+      "name": "Basic Computer Course",
+      "description": "Introduction to computers, operating systems, internet, email, and basic office applications.",
+      "duration": "1 Month",
+      "fees": 2000.0,
+      "is_active": true
+    },
+    {
+      "name": "Web Design (HTML/CSS)",
+      "description": "Learn to create modern responsive websites using HTML5 and CSS3.",
+      "duration": "3 Months",
+      "fees": 6000.0,
+      "is_active": true
+    },
+    {
+      "name": "Desktop Publishing (DTP)",
+      "description": "Learn Photoshop, PageMaker, and CorelDraw for graphic design.",
+      "duration": "3 Months",
+      "fees": 4000.0,
+      "is_active": true
+    }
+  ],
+  "vacancies": [
+    {
+      "title": "Data Entry Operator – District Office",
+      "description": "Government data entry position. Typing speed 30+ WPM required.",
+      "eligibility": "10+2 pass, CCC certificate",
+      "deadline": "2026-04-30",
+      "location": "Lucknow"
+    },
+    {
+      "title": "Computer Teacher – Private School",
+      "description": "Teach basic computer skills to learners of classes 5-10.",
+      "eligibility": "Graduate with computer diploma",
+      "deadline": "2026-05-15",
+      "location": "Kanpur"
+    },
+    {
+      "title": "Tally Accountant – Retail Store",
+      "description": "Maintain books of accounts using Tally Prime.",
+      "eligibility": "Commerce graduate, Tally certification",
+      "deadline": "2026-04-20",
+      "location": "Varanasi"
+    },
+    {
+      "title": "Graphic Designer – Marketing Agency",
+      "description": "Create social media posts, banners, and marketing materials.",
+      "eligibility": "Photoshop proficiency, portfolio required",
+      "deadline": "2026-05-01",
+      "location": "Noida"
+    },
+    {
+      "title": "Office Assistant – Government Hospital",
+      "description": "Handle documentation, typing, and computer-based work.",
+      "eligibility": "Any graduate, typing speed 25+ WPM",
+      "deadline": "2026-04-25",
+      "location": "Agra"
+    }
+  ],
+  "batch_slots": [
+    "07:00 AM – 09:00 AM",
+    "09:00 AM – 11:00 AM",
+    "11:00 AM – 01:00 PM",
+    "01:00 PM – 03:00 PM",
+    "03:00 PM – 05:00 PM",
+    "05:00 PM – 07:00 PM"
+  ],
+  "settings": [
+    {
+      "key": "institute_name",
+      "value": "Maruti Computer"
+    },
+    {
+      "key": "institute_tagline",
+      "value": "Academy of Computer Education"
+    },
+    {
+      "key": "phone_primary",
+      "value": "+91 94262 44093"
+    },
+    {
+      "key": "phone_secondary",
+      "value": "+91 94266 44093"
+    },
+    {
+      "key": "email",
+      "value": "maruticomputerkeshod@gmail.com"
+    },
+    {
+      "key": "address",
+      "value": "Opposite Sarasvati Market, Ambavadi main road, Keshod, Gujarat - 362220"
+    },
+    {
+      "key": "office_hours",
+      "value": "Monday – Saturday: 8:00 AM – 7:00 PM"
+    },
+    {
+      "key": "footer_copyright",
+      "value": "© 2026 Maruti Computer Education Academy."
+    },
+    {
+      "key": "map_embed_url",
+      "value": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3717.3001507961935!2d70.2458251!3d21.2991531!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bfd51fae1b7ef5b%3A0x5cd45abc7f50998!2sMaruti%20Computer%20-%20keshod!5e0!3m2!1sen!2sin!4v1775084092145!5m2!1sen!2sin"
+    }
+  ]
+}
